@@ -60,7 +60,7 @@ class WithdrawTask implements Runnable {
         account.withdraw(amount);
     }
 }
-// Added new branch
+
 public class BankingTransactionSystem {
     public static void main(String[] args) {
         BankAccount account = new BankAccount(500);
